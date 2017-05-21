@@ -1,0 +1,49 @@
+.back{
+
+    padding:10px;
+    font-size: 20px;
+}
+
+.prev-select{
+
+    bottom: 60px;
+    left: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.next-select{
+
+    bottom: 60px;
+    right: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.date{
+    border-bottom: 1px solid black;
+    font-weight: normal;
+    padding-bottom: 1px;
+}
+
+.comment{
+
+    background: gainsboro;
+    height:40px ;
+    width:80px;
+}
+
+.table{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height: 60%;
+    width:80%;
+}
+
+.area{
+    padding: 35px;
+}
+.settings{
+    padding-right: 10px;
+}

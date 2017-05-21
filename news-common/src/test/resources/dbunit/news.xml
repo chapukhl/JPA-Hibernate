@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<news news_id="1" short_text="New champion"
+		full_text="New champion is already known" title="chess"
+		creation_date="2016-02-16" modification_date="2016-02-16" />
+
+	<news news_id="2" short_text="Financial crisis" full_text="enterprises and factories are closed"
+		title="crisis" creation_date="2016-03-04" modification_date="2016-03-15" />
+
+	<news news_id="3" short_text="Trade union" full_text="Created a new trade union"
+		title="European Union" creation_date="2016-04-25" modification_date="2016-04-25" />
+
+	<news news_id="4" short_text="Fantastic cure" full_text="Invented a cure for Ebola virus"
+		title="Medicine win" creation_date="2016-05-10"
+		modification_date="2016-05-10" />
+
+	<news news_id="5" short_text="British scientists" full_text="New discovery by British scientists"
+		title="discovery" creation_date="2016-05-20"
+		modification_date="2016-05-20" />
+
+	<news news_id="6" short_text="A new pop star" full_text="The first concert of a new star"
+		title="New star" creation_date="2016-06-13"
+		modification_date="2016-06-13" />
+
+	<news news_id="7" short_text="New book" full_text="A new book by Dan Brown"
+		title="Den Brown" creation_date="2016-06-15"
+		modification_date="2015-06-17" />
+
+	<news news_id="8" short_text="Game Wot " full_text="Game Wot conquered the world"
+		title="Popular Game" creation_date="2016-07-03" modification_date="2016-07-03" />
+
+	<news news_id="9" short_text="Programmers' salaries"
+		full_text="Programmers' salaries have risen sharply" title="Salary"
+		creation_date="2016-07-20" modification_date="2015-07-20" />
+
+	<news news_id="10" short_text="Global warming"
+		full_text="Global warming is not a threat" title="Global warming"
+		creation_date="2015-02-16" modification_date="2015-02-16" />
+</dataset>

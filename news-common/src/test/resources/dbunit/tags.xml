@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<tag tag_id="1" tag_name="politic" />
+	<tag tag_id="2" tag_name="science" />
+	<tag tag_id="3" tag_name="entertainment" />
+	<tag tag_id="4" tag_name="economy" />
+	<tag tag_id="5" tag_name="culture" />
+	<tag tag_id="6" tag_name="accident" />
+	<tag tag_id="7" tag_name="money" />
+	<tag tag_id="8" tag_name="game" />
+	<tag tag_id="9" tag_name="sport" />
+	<tag tag_id="10" tag_name="celebrity" />
+
+	<news_tag news_tag_id="1" news_id="2" tag_id="1" />
+	<news_tag news_tag_id="2" news_id="2" tag_id="2" />
+	<news_tag news_tag_id="3" news_id="2" tag_id="1" />
+	<news_tag news_tag_id="4" news_id="6" tag_id="3" />
+	<news_tag news_tag_id="5" news_id="3" tag_id="3" />
+	<news_tag news_tag_id="6" news_id="3" tag_id="4" />
+	<news_tag news_tag_id="7" news_id="5" tag_id="5" />
+	<news_tag news_tag_id="8" news_id="8" tag_id="6" />
+	<news_tag news_tag_id="9" news_id="9" tag_id="1" />
+	<news_tag news_tag_id="10" news_id="10" tag_id="8" />
+</dataset>

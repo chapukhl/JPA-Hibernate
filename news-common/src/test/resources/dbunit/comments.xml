@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<comments comment_id="1" comment_text="Very interesting" creation_date="2016-02-24"
+		news_id="1" />
+	<comments comment_id="2" comment_text="Bad news" creation_date="2016-02-24"
+		news_id="1" />
+	<comments comment_id="3" comment_text="Fantastic!"
+		creation_date="2016-02-26" news_id="2" />
+	<comments comment_id="4" comment_text="What are you think about it?"
+		creation_date="2016-02-26" news_id="2" />
+	<comments comment_id="5" comment_text="I disagree" creation_date="2016-02-27"
+		news_id="3" />
+	<comments comment_id="6" comment_text="It is really cool" creation_date="2016-02-27"
+		news_id="3" />
+	<comments comment_id="7" comment_text="Outdated information"
+		creation_date="2016-02-28" news_id="4" />
+	<comments comment_id="8" comment_text="To-date information"
+		creation_date="2016-02-28" news_id="4" />
+	<comments comment_id="9" comment_text="Great!"
+		creation_date="2016-02-21" news_id="5" />
+	<comments comment_id="10" comment_text="Impossible"
+		creation_date="2016-02-21" news_id="5" />
+
+</dataset>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+
+
+
+
+
+    <context:component-scan base-package="com.epam.manage" />
+    <context:annotation-config />
+    <context:spring-configured />
+
+    <context:property-placeholder location="classpath:jdbc.properties" />
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <property name="driverClassName" value="${oracle.driver}" />
+    <property name="url" value="${oracle.url}" />
+    <property name="username" value="${oracle.username}" />
+    <property name="password" value="${oracle.password}" />
+    </bean>
+
+
+
+
+    <bean id="sessionFactory"
+          class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="com.epam.manage.model.entity"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+                <prop key="hibernate.current_session_context_class ">thread</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+
+    </bean>
+
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+
+    <bean id="hibernateAuthorDao" class="com.epam.manage.dao.impl.hibernate.AuthorDaoImpl"/>
+
+    <bean id="hibernateTagDao" class="com.epam.manage.dao.impl.hibernate.TagDaoImpl"/>
+
+    <bean id="hibernateCommentDao" class="com.epam.manage.dao.impl.hibernate.CommentDaoImpl"/>
+
+    <bean id="hibernateNewsDao" class="com.epam.manage.dao.impl.hibernate.NewsDaoImpl"/>
+
+    <bean id="hibernateNewsAuthorDao" class="com.epam.manage.dao.impl.hibernate.NewsAuthorDaoImpl"/>
+
+    <bean id="hibernateNewsTagDao" class="com.epam.manage.dao.impl.hibernate.NewsTagDaoImpl"/>
+
+
+</beans>

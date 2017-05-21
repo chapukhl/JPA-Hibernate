@@ -1,0 +1,27 @@
+.title
+{
+    margin-left:25px;
+    color:darkblue;
+    vertical-align:middle;
+    font-size: 36;
+    font: Arial,bold;
+    font-weight: 800;
+
+}
+
+.language
+{
+    margin-right:10px;
+    text-align: right;
+    color:blue;
+    font-size: 18;
+    font: Arial;
+}
+
+.logout
+{
+    margin-right:10px;
+    text-align: right;
+    font-size: 18;
+    font: Arial;
+}

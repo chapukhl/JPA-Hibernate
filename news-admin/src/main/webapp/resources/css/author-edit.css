@@ -1,0 +1,29 @@
+.editAuthor label{
+    padding: 50px;
+}
+
+.editAuthor input{
+    width: 20em;
+    border-radius: 2px;
+}
+
+.editAuthor a{
+    padding: 5px;
+}
+
+.saveAuthor label{
+    padding: 30px;
+}
+
+.saveAuthor input{
+    width: 20em;
+    border-radius: 2px;
+}
+
+.saveAuthor a{
+    padding: 5px;
+}
+
+.redButton{
+    background: red;
+}

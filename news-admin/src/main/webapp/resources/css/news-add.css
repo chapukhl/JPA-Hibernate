@@ -1,0 +1,42 @@
+
+.addNews  label{
+    padding: 5em;
+}
+
+.addNews  input{
+    width: 400px;
+    border-radius: 2px;
+}
+
+.addNews  a{
+    padding: 50px;
+}
+
+.shortText{
+    width: 400px;
+    height: 100px;
+
+}
+
+.fullText{
+    width: 400px;
+    height: 200px;
+}
+
+.news_title{
+
+    width: 400px;
+
+}
+
+.creationDate{
+
+    width: 400px;
+
+}
+
+.modificationDate{
+
+    width: 400px;
+
+}

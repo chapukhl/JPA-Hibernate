@@ -1,0 +1,28 @@
+.settings{
+   padding-right: 10px;
+}
+
+.comment{
+    padding-left: 20px;
+    padding-right: 20px;
+    color:red;
+}
+.label{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.row{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.tag{
+    color:gainsboro;
+}
+
+
+.date{
+    border-bottom: 1px solid black;
+    font-weight: normal;
+    padding-bottom: 1px;
+}

@@ -1,0 +1,29 @@
+.editTag label{
+    padding: 50px;
+}
+
+.editTag input{
+  width: 20em;
+    border-radius: 2px;
+}
+
+.editTag a{
+    padding: 5px;
+}
+
+.saveTag label{
+    padding: 30px;
+}
+
+.saveTag input{
+    width: 20em;
+    border-radius: 2px;
+}
+
+.saveTag a{
+    padding: 5px;
+}
+
+.redButton{
+    background: red;
+}

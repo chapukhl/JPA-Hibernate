@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<author author_id="1" name="Dmitriy" />
+	<author author_id="2" name="Aleksandr" expired="2016-05-10"/>
+	<author author_id="3" name="Vitaliy" />
+	<author author_id="4" name="Tatyana" />
+	<author author_id="5" name="Marina" />
+	<author author_id="6" name="Victor" />
+	<author author_id="7" name="Sergei" />
+	<author author_id="8" name="Vasiliy" />
+	<author author_id="9" name="Petr" />
+	<author author_id="10" name="Ivan" />
+
+	<news_author  news_id="2" author_id="1" />
+	<news_author  news_id="2" author_id="2" />
+	<news_author news_id="3" author_id="1" />
+	<news_author  news_id="3" author_id="3" />
+	<news_author  news_id="5" author_id="4" />
+	<news_author  news_id="6" author_id="5" />
+	<news_author  news_id="7" author_id="6" />
+	<news_author  news_id="8" author_id="7" />
+	<news_author  news_id="9" author_id="7" />
+	<news_author  news_id="10" author_id="7" />
+</dataset>
